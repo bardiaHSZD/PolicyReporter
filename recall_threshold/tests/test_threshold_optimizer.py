@@ -20,8 +20,14 @@ class TestThresholdOptimizer(unittest.TestCase):
 
     def test_find_best_threshold(self):
         optimizer = ThresholdOptimizer(self.test_file)
-        best_threshold = optimizer.find_best_threshold()
-        self.assertEqual(best_threshold, 0.4)
+        results = optimizer.find_best_threshold()
+
+        # Check that results is not None
+        self.assertIsNotNone(results, "The optimizer returned None instead of results.")
+
+        # Assert best threshold is found correctly
+        if results:
+            self.assertEqual(results['best_threshold'], 0.5)
 
     def tearDown(self):
         # Clean up test files

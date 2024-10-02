@@ -1,93 +1,130 @@
-import os
 import pandas as pd
-from numba import cuda
-import numpy as np
-from loguru import logger
+from src.logger import logger
+from src.utils import calculate_metrics, calculate_composite_score
+from sklearn.metrics import roc_auc_score
 
 class ThresholdOptimizer:
-    """
-    Class to find the best threshold that yields a recall >= 0.9, using GPU for recall calculation.
-    """
-
     def __init__(self, file_path):
         """
-        Initializes the ThresholdOptimizer with the given CSV file path.
+        Initialize the ThresholdOptimizer with a file path to the CSV data.
+        Args:
+            file_path (str): Path to the CSV file containing thresholds and metrics.
         """
         self.file_path = file_path
-        if not os.path.exists(self.file_path):
-            logger.error(f"File not found: {self.file_path}")
-            raise FileNotFoundError(f"File not found: {self.file_path}")
 
-    @staticmethod
-    @cuda.jit
-    def calculate_recall_on_gpu(TP, FN, recall):
+    def find_best_threshold(self, weights=None):
         """
-        CUDA kernel to calculate recall for arrays of TP and FN.
-        
-        :param TP: Array of True Positives.
-        :param FN: Array of False Negatives.
-        :param recall: Output array for recall values.
-        """
-        idx = cuda.grid(1)  # Get the global index for the current thread
-        if idx < TP.size:
-            if (TP[idx] + FN[idx]) > 0:
-                recall[idx] = TP[idx] / (TP[idx] + FN[idx])
-            else:
-                recall[idx] = 0  # Handle division by zero
+        Finds the best threshold based on a composite score or individual metrics.
 
-    def find_best_threshold(self):
-        """
-        Finds the best threshold with recall >= 0.9.
+        Args:
+            weights (dict): Weights for calculating composite score (optional).
 
-        :return: Best threshold value or None if not found.
+        Returns:
+            dict: Results containing the best threshold and all metrics.
         """
         best_threshold = None
-        best_recall = 0
+        best_composite_score = float('-inf')
+        results = []
 
-        chunk_size = 100000  # Adjust based on available memory
-
+        # Read the CSV file
         try:
-            reader = pd.read_csv(self.file_path, chunksize=chunk_size)
+            df = pd.read_csv(self.file_path)
+            logger.info(f"Successfully read CSV file: {self.file_path}")
+        except FileNotFoundError:
+            logger.error(f"File not found: {self.file_path}")
+            return None
+        except pd.errors.EmptyDataError:
+            logger.error(f"Empty data file: {self.file_path}")
+            return None
         except Exception as e:
-            logger.error(f"Error reading CSV file: {e}")
-            raise
+            logger.error(f"Error reading the file: {e}")
+            return None
 
-        for chunk in reader:
-            TP = chunk['TP'].values.astype(np.float32)
-            FN = chunk['FN'].values.astype(np.float32)
-            recall = np.zeros_like(TP, dtype=np.float32)
+        # Check if the DataFrame is empty
+        if df.empty:
+            logger.error("The DataFrame is empty. No data to process.")
+            return None
 
-            # Move arrays to the GPU
-            TP_device = cuda.to_device(TP)
-            FN_device = cuda.to_device(FN)
-            recall_device = cuda.to_device(recall)
+        # Log DataFrame for debugging
+        logger.info(f"DataFrame read from file:\n{df}")
 
-            # Calculate recall on the GPU
-            threads_per_block = 128
-            blocks_per_grid = (TP.size + (threads_per_block - 1)) // threads_per_block
-            self.calculate_recall_on_gpu[blocks_per_grid, threads_per_block](TP_device, FN_device, recall_device)
+        # Iterate through each threshold
+        for index, row in df.iterrows():
+            try:
+                TP = row['TP']
+                FP = row['FP']
+                TN = row['TN']
+                FN = row['FN']
+                threshold = row['threshold']
 
-            # Copy the result back to the host
-            recall_device.copy_to_host(recall)
+                # Calculate precision, recall, F1 score, false positive rate (FPR), and TNR
+                precision, recall, f1, fpr, tnr = calculate_metrics(TP, FP, TN, FN)
 
-            # Add recall values back to the chunk dataframe
-            chunk['recall'] = recall
+                # Log calculated values
+                logger.info(f"Threshold: {threshold}, Precision: {precision}, Recall: {recall}, F1: {f1}")
 
-            # Filter rows where recall is >= 0.9
-            valid_recall_rows = chunk[chunk['recall'] >= 0.9]
+                # Check recall condition
+                if recall >= 0.9:
+                    logger.info(f"Threshold {threshold} satisfies recall >= 0.9")
 
-            if not valid_recall_rows.empty:
-                max_recall_row = valid_recall_rows.loc[valid_recall_rows['recall'].idxmax()]
-                current_recall = max_recall_row['recall']
+                    # Update best threshold if weights are not provided
+                    if weights is None:
+                        best_threshold = threshold
 
-                if current_recall > best_recall:
-                    best_threshold = max_recall_row['threshold']
-                    best_recall = current_recall
-                    logger.info(f"New best threshold found: {best_threshold} with recall {best_recall}")
+                # Calculate composite score if weights are provided
+                if weights:
+                    composite_score = calculate_composite_score(precision, recall, f1, fpr, weights)
 
-        if best_threshold is not None:
-            logger.info(f"Best threshold with recall >= 0.9 is: {best_threshold}")
-        else:
-            logger.warning("No threshold found with recall >= 0.9.")
+                    # Update the best threshold based on composite score
+                    if composite_score > best_composite_score:
+                        best_composite_score = composite_score
+                        best_threshold = threshold
 
-        return best_threshold
+                # Store the results for reporting
+                results.append({
+                    'threshold': threshold,
+                    'precision': precision,
+                    'recall': recall,
+                    'f1': f1,
+                    'fpr': fpr,
+                    'tnr': tnr,
+                    'composite_score': composite_score if weights else None
+                })
+
+            except KeyError as e:
+                logger.error(f"Missing key in data: {e}")
+                continue  # Skip the current row if there are missing keys
+
+        # Check if any valid threshold was found
+        if best_threshold is None:
+            logger.warning("No valid threshold found that meets the criteria.")
+            return None
+
+        logger.info(f"Best threshold selected: {best_threshold}")
+        return {
+            "best_threshold": best_threshold,
+            "results": results
+        }
+
+
+def run_optimizer(file_path, weights=None):
+    """
+    Helper function to run the optimizer.
+    
+    Args:
+        file_path (str): Path to the CSV file.
+        weights (dict): Weights for composite score calculation (optional).
+    
+    Returns:
+        dict: Best threshold and metrics.
+    """
+    optimizer = ThresholdOptimizer(file_path)
+    result = optimizer.find_best_threshold(weights=weights)
+    
+    if result is None:
+        logger.error("No valid threshold found.")
+    else:
+        best_threshold = result["best_threshold"]
+        logger.info(f"Best threshold selected: {best_threshold}")
+    
+    return result

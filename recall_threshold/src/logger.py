@@ -1,7 +1,7 @@
 from loguru import logger
 import sys
 
-# Configure logger
+# Configure the logger
 logger.remove()  # Remove default logger
-logger.add(sys.stderr, level="INFO")  # Adjust log level as needed
-logger.add("logs/threshold_optimizer.log", rotation="1 MB")
+logger.add(sys.stderr, level="INFO")  # Log to stderr with INFO level
+logger.add("logs/threshold_optimizer.log", rotation="1 MB")  # Save logs to file
