@@ -3,7 +3,7 @@
 
 ## Overview
 
-This project implements a threshold optimization system for a binary classification model. It calculates various metrics (e.g., Precision, Recall, F1 Score, False Positive Rate) across different thresholds and selects the best threshold. The best threshold can be determined based on a **composite score** (weighted metrics), or you can prioritize individual metrics such as F1 Score or Recall. 
+This project implements a threshold optimization system for a binary classification model. It calculates various metrics (e.g., Precision, Recall, F1 Score, False Positive Rate) across different thresholds and selects the best threshold. The best threshold can be determined based on a **composite score** (weighted metrics), or you can prioritize individual metrics such as F1 Score or Recall.
 
 The solution is designed to handle large datasets efficiently and includes optional GPU acceleration (though not required for basic functionality).
 
@@ -107,10 +107,17 @@ A sample CSV file is included: `data/large_classification_thresholds.csv`.
 2. Run the following Python script to compute the best threshold based on selected metrics:
 
     ```bash
-    python src/threshold_optimizer.py
+    python main.py --file_path data/large_classification_thresholds.csv
     ```
 
-3. By default, the code will compute metrics for all thresholds and return the best threshold based on the **composite score** or the highest **F1 score**. The output will log the best threshold, precision, recall, F1 score, and more.
+3. **With Composite Score Weights**:
+   To run the optimizer using a composite score with weights for **precision**, **recall**, **F1 score**, and **FPR**, run the following:
+
+    ```bash
+    python main.py --file_path data/large_classification_thresholds.csv --weights 0.25 0.25 0.25 0.25
+    ```
+
+4. By default, the code will compute metrics for all thresholds and return the best threshold based on the **composite score** or the highest **F1 score**. The output will log the best threshold, precision, recall, F1 score, and more.
 
 ---
 
@@ -137,6 +144,7 @@ threshold_optimizer/
 │   └── utils.py  # Helper functions for metric calculation
 ├── tests/
 │   └── test_threshold_optimizer.py  # Unit tests
+├── main.py  # Main script to run the optimizer
 ├── README.md  # This file
 └── requirements.txt  # Python dependencies
 ```
