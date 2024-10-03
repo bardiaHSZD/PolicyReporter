@@ -26,8 +26,7 @@ This project implements a generic Finite State Machine (FSM) class in Python and
 If you have Git installed, you can clone the repository. Otherwise, you can manually create the project directory and files.
 
 ```bash
-git clone https://github.com/yourusername/fsm_mod_three.git
-cd fsm_mod_three
+cd finite_state_machine
 ```
 
 ### 2. Install Python
@@ -37,7 +36,7 @@ Download and install Python from the [official website](https://www.python.org/d
 ### 3. Set Up Visual Studio Code (Optional)
 
 - **Install Python Extension**: Open Visual Studio Code, go to the Extensions tab (Ctrl+Shift+X), search for "Python", and install the extension by Microsoft.
-- **Open the Project Folder**: Go to `File` > `Open Folder` and select your project folder (`fsm_mod_three`).
+- **Open the Project Folder**: Go to `File` > `Open Folder` and select your project folder (`finite_state_machine`).
 
 ### 4. Create Project Files
 
