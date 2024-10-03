@@ -1,0 +1,218 @@
+2024-10-02 12:08:34.058 | INFO     | src.threshold_optimizer:find_best_threshold:56 - Threshold: 0.1, Recall: 0.9473684210526315, F1: 0.9230769230769231, Precision: 0.9
+2024-10-02 12:08:34.058 | INFO     | src.threshold_optimizer:find_best_threshold:60 - Threshold 0.1 satisfies recall >= 0.9
+2024-10-02 12:08:34.058 | INFO     | src.threshold_optimizer:find_best_threshold:56 - Threshold: 0.2, Recall: 0.8947368421052632, F1: 0.918918918918919, Precision: 0.9444444444444444
+2024-10-02 12:08:34.059 | INFO     | src.threshold_optimizer:find_best_threshold:56 - Threshold: 0.3, Recall: 0.8736842105263158, F1: 0.9120879120879121, Precision: 0.9540229885057471
+2024-10-02 12:08:34.061 | INFO     | src.threshold_optimizer:find_best_threshold:56 - Threshold: 0.4, Recall: 0.968421052631579, F1: 0.9108910891089109, Precision: 0.8598130841121495
+2024-10-02 12:08:34.061 | INFO     | src.threshold_optimizer:find_best_threshold:60 - Threshold 0.4 satisfies recall >= 0.9
+2024-10-02 12:08:34.062 | INFO     | src.threshold_optimizer:find_best_threshold:56 - Threshold: 0.5, Recall: 0.9578947368421052, F1: 0.91, Precision: 0.8666666666666667
+2024-10-02 12:08:34.062 | INFO     | src.threshold_optimizer:find_best_threshold:60 - Threshold 0.5 satisfies recall >= 0.9
+2024-10-02 12:08:34.066 | INFO     | src.threshold_optimizer:find_best_threshold:56 - Threshold: 0.1, Recall: 0.9473684210526315, F1: 0.9230769230769231, Precision: 0.9
+2024-10-02 12:08:34.067 | INFO     | src.threshold_optimizer:find_best_threshold:60 - Threshold 0.1 satisfies recall >= 0.9
+2024-10-02 12:08:34.068 | INFO     | src.threshold_optimizer:find_best_threshold:56 - Threshold: 0.2, Recall: 0.8947368421052632, F1: 0.918918918918919, Precision: 0.9444444444444444
+2024-10-02 12:08:34.068 | INFO     | src.threshold_optimizer:find_best_threshold:56 - Threshold: 0.3, Recall: 0.8736842105263158, F1: 0.9120879120879121, Precision: 0.9540229885057471
+2024-10-02 12:08:34.069 | INFO     | src.threshold_optimizer:find_best_threshold:56 - Threshold: 0.4, Recall: 0.968421052631579, F1: 0.9108910891089109, Precision: 0.8598130841121495
+2024-10-02 12:08:34.070 | INFO     | src.threshold_optimizer:find_best_threshold:60 - Threshold 0.4 satisfies recall >= 0.9
+2024-10-02 12:08:34.071 | INFO     | src.threshold_optimizer:find_best_threshold:56 - Threshold: 0.5, Recall: 0.9578947368421052, F1: 0.91, Precision: 0.8666666666666667
+2024-10-02 12:08:34.072 | INFO     | src.threshold_optimizer:find_best_threshold:60 - Threshold 0.5 satisfies recall >= 0.9
+2024-10-02 12:08:34.072 | WARNING  | src.threshold_optimizer:find_best_threshold:90 - No threshold meets the criteria (e.g., recall >= 0.9).
+2024-10-02 12:29:59.648 | INFO     | src.threshold_optimizer:find_best_threshold:60 - Threshold: 0.1, Recall: 0.9473684210526315, F1: 0.9230769230769231, Precision: 0.9
+2024-10-02 12:29:59.649 | INFO     | src.threshold_optimizer:find_best_threshold:64 - Threshold 0.1 satisfies recall >= 0.9
+2024-10-02 12:29:59.650 | INFO     | src.threshold_optimizer:find_best_threshold:60 - Threshold: 0.2, Recall: 0.8947368421052632, F1: 0.918918918918919, Precision: 0.9444444444444444
+2024-10-02 12:29:59.650 | INFO     | src.threshold_optimizer:find_best_threshold:60 - Threshold: 0.3, Recall: 0.8736842105263158, F1: 0.9120879120879121, Precision: 0.9540229885057471
+2024-10-02 12:29:59.651 | INFO     | src.threshold_optimizer:find_best_threshold:60 - Threshold: 0.4, Recall: 0.968421052631579, F1: 0.9108910891089109, Precision: 0.8598130841121495
+2024-10-02 12:29:59.651 | INFO     | src.threshold_optimizer:find_best_threshold:64 - Threshold 0.4 satisfies recall >= 0.9
+2024-10-02 12:29:59.651 | INFO     | src.threshold_optimizer:find_best_threshold:60 - Threshold: 0.5, Recall: 0.9578947368421052, F1: 0.91, Precision: 0.8666666666666667
+2024-10-02 12:29:59.652 | INFO     | src.threshold_optimizer:find_best_threshold:64 - Threshold 0.5 satisfies recall >= 0.9
+2024-10-02 12:29:59.652 | WARNING  | src.threshold_optimizer:find_best_threshold:94 - No valid threshold found that meets the criteria.
+2024-10-02 12:36:06.758 | INFO     | src.threshold_optimizer:find_best_threshold:60 - Threshold: 0.1, Recall: 0.9473684210526315, F1: 0.9230769230769231, Precision: 0.9
+2024-10-02 12:36:06.759 | INFO     | src.threshold_optimizer:find_best_threshold:64 - Threshold 0.1 satisfies recall >= 0.9
+2024-10-02 12:36:06.759 | INFO     | src.threshold_optimizer:find_best_threshold:60 - Threshold: 0.2, Recall: 0.8947368421052632, F1: 0.918918918918919, Precision: 0.9444444444444444
+2024-10-02 12:36:06.760 | INFO     | src.threshold_optimizer:find_best_threshold:60 - Threshold: 0.3, Recall: 0.8736842105263158, F1: 0.9120879120879121, Precision: 0.9540229885057471
+2024-10-02 12:36:06.761 | INFO     | src.threshold_optimizer:find_best_threshold:60 - Threshold: 0.4, Recall: 0.968421052631579, F1: 0.9108910891089109, Precision: 0.8598130841121495
+2024-10-02 12:36:06.762 | INFO     | src.threshold_optimizer:find_best_threshold:64 - Threshold 0.4 satisfies recall >= 0.9
+2024-10-02 12:36:06.762 | INFO     | src.threshold_optimizer:find_best_threshold:60 - Threshold: 0.5, Recall: 0.9578947368421052, F1: 0.91, Precision: 0.8666666666666667
+2024-10-02 12:36:06.763 | INFO     | src.threshold_optimizer:find_best_threshold:64 - Threshold 0.5 satisfies recall >= 0.9
+2024-10-02 12:36:06.764 | WARNING  | src.threshold_optimizer:find_best_threshold:94 - No valid threshold found that meets the criteria.
+2024-10-02 13:20:00.089 | INFO     | src.threshold_optimizer:find_best_threshold:60 - Threshold: 0.1, Recall: 0.9473684210526315, F1: 0.9230769230769231, Precision: 0.9
+2024-10-02 13:20:00.089 | INFO     | src.threshold_optimizer:find_best_threshold:64 - Threshold 0.1 satisfies recall >= 0.9
+2024-10-02 13:20:00.089 | INFO     | src.threshold_optimizer:find_best_threshold:60 - Threshold: 0.2, Recall: 0.8947368421052632, F1: 0.918918918918919, Precision: 0.9444444444444444
+2024-10-02 13:20:00.089 | INFO     | src.threshold_optimizer:find_best_threshold:60 - Threshold: 0.3, Recall: 0.8736842105263158, F1: 0.9120879120879121, Precision: 0.9540229885057471
+2024-10-02 13:20:00.089 | INFO     | src.threshold_optimizer:find_best_threshold:60 - Threshold: 0.4, Recall: 0.968421052631579, F1: 0.9108910891089109, Precision: 0.8598130841121495
+2024-10-02 13:20:00.090 | INFO     | src.threshold_optimizer:find_best_threshold:64 - Threshold 0.4 satisfies recall >= 0.9
+2024-10-02 13:20:00.090 | INFO     | src.threshold_optimizer:find_best_threshold:60 - Threshold: 0.5, Recall: 0.9578947368421052, F1: 0.91, Precision: 0.8666666666666667
+2024-10-02 13:20:00.090 | INFO     | src.threshold_optimizer:find_best_threshold:64 - Threshold 0.5 satisfies recall >= 0.9
+2024-10-02 13:20:00.090 | WARNING  | src.threshold_optimizer:find_best_threshold:94 - No valid threshold found that meets the criteria.
+2024-10-02 13:25:28.455 | INFO     | src.threshold_optimizer:find_best_threshold:32 - Successfully read CSV file: data/test_classification_thresholds.csv
+2024-10-02 13:25:28.461 | INFO     | src.threshold_optimizer:find_best_threshold:49 - DataFrame read from file:
+   threshold  TP  TN  FP  FN
+0        0.1  90  80  10   5
+1        0.2  85  85   5  10
+2        0.3  83  86   4  12
+3        0.4  92  75  15   3
+4        0.5  91  76  14   4
+2024-10-02 13:25:28.461 | INFO     | src.threshold_optimizer:find_best_threshold:64 - Threshold: 0.1, Precision: 0.9, Recall: 0.9473684210526315, F1: 0.9230769230769231
+2024-10-02 13:25:28.462 | INFO     | src.threshold_optimizer:find_best_threshold:68 - Threshold 0.1 satisfies recall >= 0.9
+2024-10-02 13:25:28.463 | INFO     | src.threshold_optimizer:find_best_threshold:64 - Threshold: 0.2, Precision: 0.9444444444444444, Recall: 0.8947368421052632, F1: 0.918918918918919
+2024-10-02 13:25:28.463 | INFO     | src.threshold_optimizer:find_best_threshold:64 - Threshold: 0.3, Precision: 0.9540229885057471, Recall: 0.8736842105263158, F1: 0.9120879120879121
+2024-10-02 13:25:28.464 | INFO     | src.threshold_optimizer:find_best_threshold:64 - Threshold: 0.4, Precision: 0.8598130841121495, Recall: 0.968421052631579, F1: 0.9108910891089109
+2024-10-02 13:25:28.464 | INFO     | src.threshold_optimizer:find_best_threshold:68 - Threshold 0.4 satisfies recall >= 0.9
+2024-10-02 13:25:28.464 | INFO     | src.threshold_optimizer:find_best_threshold:64 - Threshold: 0.5, Precision: 0.8666666666666667, Recall: 0.9578947368421052, F1: 0.91
+2024-10-02 13:25:28.465 | INFO     | src.threshold_optimizer:find_best_threshold:68 - Threshold 0.5 satisfies recall >= 0.9
+2024-10-02 13:25:28.465 | INFO     | src.threshold_optimizer:find_best_threshold:103 - Best threshold selected: 0.5
+2024-10-02 13:37:06.751 | INFO     | src.threshold_optimizer:find_best_threshold:32 - Successfully read CSV file: data/test_classification_thresholds.csv
+2024-10-02 13:37:06.756 | INFO     | src.threshold_optimizer:find_best_threshold:49 - DataFrame read from file:
+   threshold  TP  TN  FP  FN
+0        0.1  90  80  10   5
+1        0.2  85  85   5  10
+2        0.3  83  86   4  12
+3        0.4  92  75  15   3
+4        0.5  91  76  14   4
+2024-10-02 13:37:06.756 | INFO     | src.threshold_optimizer:find_best_threshold:64 - Threshold: 0.1, Precision: 0.9, Recall: 0.9473684210526315, F1: 0.9230769230769231
+2024-10-02 13:37:06.757 | INFO     | src.threshold_optimizer:find_best_threshold:68 - Threshold 0.1 satisfies recall >= 0.9
+2024-10-02 13:37:06.757 | INFO     | src.threshold_optimizer:find_best_threshold:64 - Threshold: 0.2, Precision: 0.9444444444444444, Recall: 0.8947368421052632, F1: 0.918918918918919
+2024-10-02 13:37:06.758 | INFO     | src.threshold_optimizer:find_best_threshold:64 - Threshold: 0.3, Precision: 0.9540229885057471, Recall: 0.8736842105263158, F1: 0.9120879120879121
+2024-10-02 13:37:06.758 | INFO     | src.threshold_optimizer:find_best_threshold:64 - Threshold: 0.4, Precision: 0.8598130841121495, Recall: 0.968421052631579, F1: 0.9108910891089109
+2024-10-02 13:37:06.759 | INFO     | src.threshold_optimizer:find_best_threshold:68 - Threshold 0.4 satisfies recall >= 0.9
+2024-10-02 13:37:06.760 | INFO     | src.threshold_optimizer:find_best_threshold:64 - Threshold: 0.5, Precision: 0.8666666666666667, Recall: 0.9578947368421052, F1: 0.91
+2024-10-02 13:37:06.761 | INFO     | src.threshold_optimizer:find_best_threshold:68 - Threshold 0.5 satisfies recall >= 0.9
+2024-10-02 13:37:06.761 | INFO     | src.threshold_optimizer:find_best_threshold:105 - Best threshold selected: 0.1
+2024-10-02 13:37:34.492 | INFO     | src.threshold_optimizer:find_best_threshold:32 - Successfully read CSV file: data/test_classification_thresholds.csv
+2024-10-02 13:37:34.495 | INFO     | src.threshold_optimizer:find_best_threshold:49 - DataFrame read from file:
+   threshold  TP  TN  FP  FN
+0        0.1  90  80  10   5
+1        0.2  85  85   5  10
+2        0.3  83  86   4  12
+3        0.4  92  75  15   3
+4        0.5  91  76  14   4
+2024-10-02 13:37:34.497 | INFO     | src.threshold_optimizer:find_best_threshold:64 - Threshold: 0.1, Precision: 0.9, Recall: 0.9473684210526315, F1: 0.9230769230769231
+2024-10-02 13:37:34.497 | INFO     | src.threshold_optimizer:find_best_threshold:68 - Threshold 0.1 satisfies recall >= 0.9
+2024-10-02 13:37:34.498 | INFO     | src.threshold_optimizer:find_best_threshold:64 - Threshold: 0.2, Precision: 0.9444444444444444, Recall: 0.8947368421052632, F1: 0.918918918918919
+2024-10-02 13:37:34.498 | INFO     | src.threshold_optimizer:find_best_threshold:64 - Threshold: 0.3, Precision: 0.9540229885057471, Recall: 0.8736842105263158, F1: 0.9120879120879121
+2024-10-02 13:37:34.500 | INFO     | src.threshold_optimizer:find_best_threshold:64 - Threshold: 0.4, Precision: 0.8598130841121495, Recall: 0.968421052631579, F1: 0.9108910891089109
+2024-10-02 13:37:34.500 | INFO     | src.threshold_optimizer:find_best_threshold:68 - Threshold 0.4 satisfies recall >= 0.9
+2024-10-02 13:37:34.501 | INFO     | src.threshold_optimizer:find_best_threshold:64 - Threshold: 0.5, Precision: 0.8666666666666667, Recall: 0.9578947368421052, F1: 0.91
+2024-10-02 13:37:34.501 | INFO     | src.threshold_optimizer:find_best_threshold:68 - Threshold 0.5 satisfies recall >= 0.9
+2024-10-02 13:37:34.502 | INFO     | src.threshold_optimizer:find_best_threshold:103 - Best threshold selected: 0.5
+2024-10-02 13:37:51.256 | INFO     | src.threshold_optimizer:find_best_threshold:32 - Successfully read CSV file: data/test_classification_thresholds.csv
+2024-10-02 13:37:51.261 | INFO     | src.threshold_optimizer:find_best_threshold:49 - DataFrame read from file:
+   threshold  TP  TN  FP  FN
+0        0.1  90  80  10   5
+1        0.2  85  85   5  10
+2        0.3  83  86   4  12
+3        0.4  92  75  15   3
+4        0.5  91  76  14   4
+2024-10-02 13:37:51.262 | INFO     | src.threshold_optimizer:find_best_threshold:64 - Threshold: 0.1, Precision: 0.9, Recall: 0.9473684210526315, F1: 0.9230769230769231
+2024-10-02 13:37:51.262 | INFO     | src.threshold_optimizer:find_best_threshold:68 - Threshold 0.1 satisfies recall >= 0.9
+2024-10-02 13:37:51.263 | INFO     | src.threshold_optimizer:find_best_threshold:64 - Threshold: 0.2, Precision: 0.9444444444444444, Recall: 0.8947368421052632, F1: 0.918918918918919
+2024-10-02 13:37:51.264 | INFO     | src.threshold_optimizer:find_best_threshold:64 - Threshold: 0.3, Precision: 0.9540229885057471, Recall: 0.8736842105263158, F1: 0.9120879120879121
+2024-10-02 13:37:51.264 | INFO     | src.threshold_optimizer:find_best_threshold:64 - Threshold: 0.4, Precision: 0.8598130841121495, Recall: 0.968421052631579, F1: 0.9108910891089109
+2024-10-02 13:37:51.265 | INFO     | src.threshold_optimizer:find_best_threshold:68 - Threshold 0.4 satisfies recall >= 0.9
+2024-10-02 13:37:51.266 | INFO     | src.threshold_optimizer:find_best_threshold:64 - Threshold: 0.5, Precision: 0.8666666666666667, Recall: 0.9578947368421052, F1: 0.91
+2024-10-02 13:37:51.267 | INFO     | src.threshold_optimizer:find_best_threshold:68 - Threshold 0.5 satisfies recall >= 0.9
+2024-10-02 13:37:51.268 | INFO     | src.threshold_optimizer:find_best_threshold:103 - Best threshold selected: 0.5
+2024-10-03 10:06:54.842 | INFO     | src.threshold_optimizer:find_best_threshold:32 - Successfully read CSV file: data/test_classification_thresholds.csv
+2024-10-03 10:06:54.850 | INFO     | src.threshold_optimizer:find_best_threshold:49 - DataFrame read from file:
+   threshold  TP  TN  FP  FN
+0        0.1  90  80  10   5
+1        0.2  85  85   5  10
+2        0.3  83  86   4  12
+3        0.4  92  75  15   3
+4        0.5  91  76  14   4
+2024-10-03 10:06:54.852 | INFO     | src.threshold_optimizer:find_best_threshold:64 - Threshold: 0.1, Precision: 0.9, Recall: 0.9473684210526315, F1: 0.9230769230769231
+2024-10-03 10:06:54.852 | INFO     | src.threshold_optimizer:find_best_threshold:68 - Threshold 0.1 satisfies recall >= 0.9
+2024-10-03 10:06:54.853 | INFO     | src.threshold_optimizer:find_best_threshold:64 - Threshold: 0.2, Precision: 0.9444444444444444, Recall: 0.8947368421052632, F1: 0.918918918918919
+2024-10-03 10:06:54.853 | INFO     | src.threshold_optimizer:find_best_threshold:64 - Threshold: 0.3, Precision: 0.9540229885057471, Recall: 0.8736842105263158, F1: 0.9120879120879121
+2024-10-03 10:06:54.854 | INFO     | src.threshold_optimizer:find_best_threshold:64 - Threshold: 0.4, Precision: 0.8598130841121495, Recall: 0.968421052631579, F1: 0.9108910891089109
+2024-10-03 10:06:54.854 | INFO     | src.threshold_optimizer:find_best_threshold:68 - Threshold 0.4 satisfies recall >= 0.9
+2024-10-03 10:06:54.855 | INFO     | src.threshold_optimizer:find_best_threshold:64 - Threshold: 0.5, Precision: 0.8666666666666667, Recall: 0.9578947368421052, F1: 0.91
+2024-10-03 10:06:54.855 | INFO     | src.threshold_optimizer:find_best_threshold:68 - Threshold 0.5 satisfies recall >= 0.9
+2024-10-03 10:06:54.855 | INFO     | src.threshold_optimizer:find_best_threshold:103 - Best threshold selected: 0.5
+2024-10-03 10:07:35.443 | INFO     | src.threshold_optimizer:find_best_threshold:32 - Successfully read CSV file: data/test_classification_thresholds.csv
+2024-10-03 10:07:35.447 | INFO     | src.threshold_optimizer:find_best_threshold:49 - DataFrame read from file:
+   threshold  TP  TN  FP  FN
+0        0.1  90  80  10   5
+1        0.2  85  85   5  10
+2        0.3  83  86   4  12
+3        0.4  92  75  15   3
+4        0.5  91  76  14   4
+2024-10-03 10:07:35.448 | INFO     | src.threshold_optimizer:find_best_threshold:64 - Threshold: 0.1, Precision: 0.9, Recall: 0.9473684210526315, F1: 0.9230769230769231
+2024-10-03 10:07:35.449 | INFO     | src.threshold_optimizer:find_best_threshold:68 - Threshold 0.1 satisfies recall >= 0.9
+2024-10-03 10:07:35.449 | INFO     | src.threshold_optimizer:find_best_threshold:64 - Threshold: 0.2, Precision: 0.9444444444444444, Recall: 0.8947368421052632, F1: 0.918918918918919
+2024-10-03 10:07:35.450 | INFO     | src.threshold_optimizer:find_best_threshold:64 - Threshold: 0.3, Precision: 0.9540229885057471, Recall: 0.8736842105263158, F1: 0.9120879120879121
+2024-10-03 10:07:35.450 | INFO     | src.threshold_optimizer:find_best_threshold:64 - Threshold: 0.4, Precision: 0.8598130841121495, Recall: 0.968421052631579, F1: 0.9108910891089109
+2024-10-03 10:07:35.451 | INFO     | src.threshold_optimizer:find_best_threshold:68 - Threshold 0.4 satisfies recall >= 0.9
+2024-10-03 10:07:35.451 | INFO     | src.threshold_optimizer:find_best_threshold:64 - Threshold: 0.5, Precision: 0.8666666666666667, Recall: 0.9578947368421052, F1: 0.91
+2024-10-03 10:07:35.452 | INFO     | src.threshold_optimizer:find_best_threshold:68 - Threshold 0.5 satisfies recall >= 0.9
+2024-10-03 10:07:35.452 | INFO     | src.threshold_optimizer:find_best_threshold:103 - Best threshold selected: 0.5
+2024-10-03 10:09:22.459 | INFO     | src.threshold_optimizer:find_best_threshold:32 - Successfully read CSV file: data/test_classification_thresholds.csv
+2024-10-03 10:09:22.463 | INFO     | src.threshold_optimizer:find_best_threshold:49 - DataFrame read from file:
+   threshold  TP  TN  FP  FN
+0        0.1  90  80  10   5
+1        0.2  85  85   5  10
+2        0.3  83  86   4  12
+3        0.4  92  75  15   3
+4        0.5  91  76  14   4
+2024-10-03 10:09:22.464 | INFO     | src.threshold_optimizer:find_best_threshold:64 - Threshold: 0.1, Precision: 0.9, Recall: 0.9473684210526315, F1: 0.9230769230769231
+2024-10-03 10:09:22.465 | INFO     | src.threshold_optimizer:find_best_threshold:68 - Threshold 0.1 satisfies recall >= 0.9
+2024-10-03 10:09:22.466 | INFO     | src.threshold_optimizer:find_best_threshold:64 - Threshold: 0.2, Precision: 0.9444444444444444, Recall: 0.8947368421052632, F1: 0.918918918918919
+2024-10-03 10:09:22.466 | INFO     | src.threshold_optimizer:find_best_threshold:64 - Threshold: 0.3, Precision: 0.9540229885057471, Recall: 0.8736842105263158, F1: 0.9120879120879121
+2024-10-03 10:09:22.467 | INFO     | src.threshold_optimizer:find_best_threshold:64 - Threshold: 0.4, Precision: 0.8598130841121495, Recall: 0.968421052631579, F1: 0.9108910891089109
+2024-10-03 10:09:22.468 | INFO     | src.threshold_optimizer:find_best_threshold:68 - Threshold 0.4 satisfies recall >= 0.9
+2024-10-03 10:09:22.468 | INFO     | src.threshold_optimizer:find_best_threshold:64 - Threshold: 0.5, Precision: 0.8666666666666667, Recall: 0.9578947368421052, F1: 0.91
+2024-10-03 10:09:22.469 | INFO     | src.threshold_optimizer:find_best_threshold:68 - Threshold 0.5 satisfies recall >= 0.9
+2024-10-03 10:09:22.469 | INFO     | src.threshold_optimizer:find_best_threshold:103 - Best threshold selected: 0.5
+2024-10-03 10:09:49.477 | INFO     | src.threshold_optimizer:find_best_threshold:32 - Successfully read CSV file: data/test_classification_thresholds.csv
+2024-10-03 10:09:49.481 | INFO     | src.threshold_optimizer:find_best_threshold:49 - DataFrame read from file:
+   threshold  TP  TN  FP  FN
+0        0.1  90  80  10   5
+1        0.2  85  85   5  10
+2        0.3  83  86   4  12
+3        0.4  92  75  15   3
+4        0.5  91  76  14   4
+2024-10-03 10:09:49.482 | INFO     | src.threshold_optimizer:find_best_threshold:64 - Threshold: 0.1, Precision: 0.9, Recall: 0.9473684210526315, F1: 0.9230769230769231
+2024-10-03 10:09:49.483 | INFO     | src.threshold_optimizer:find_best_threshold:68 - Threshold 0.1 satisfies recall >= 0.9
+2024-10-03 10:09:49.483 | INFO     | src.threshold_optimizer:find_best_threshold:64 - Threshold: 0.2, Precision: 0.9444444444444444, Recall: 0.8947368421052632, F1: 0.918918918918919
+2024-10-03 10:09:49.484 | INFO     | src.threshold_optimizer:find_best_threshold:64 - Threshold: 0.3, Precision: 0.9540229885057471, Recall: 0.8736842105263158, F1: 0.9120879120879121
+2024-10-03 10:09:49.485 | INFO     | src.threshold_optimizer:find_best_threshold:64 - Threshold: 0.4, Precision: 0.8598130841121495, Recall: 0.968421052631579, F1: 0.9108910891089109
+2024-10-03 10:09:49.486 | INFO     | src.threshold_optimizer:find_best_threshold:68 - Threshold 0.4 satisfies recall >= 0.9
+2024-10-03 10:09:49.486 | INFO     | src.threshold_optimizer:find_best_threshold:64 - Threshold: 0.5, Precision: 0.8666666666666667, Recall: 0.9578947368421052, F1: 0.91
+2024-10-03 10:09:49.487 | INFO     | src.threshold_optimizer:find_best_threshold:68 - Threshold 0.5 satisfies recall >= 0.9
+2024-10-03 10:09:49.488 | INFO     | src.threshold_optimizer:find_best_threshold:103 - Best threshold selected: 0.5
+2024-10-03 10:10:46.327 | INFO     | src.threshold_optimizer:find_best_threshold:32 - Successfully read CSV file: data/test_classification_thresholds.csv
+2024-10-03 10:10:46.330 | INFO     | src.threshold_optimizer:find_best_threshold:49 - DataFrame read from file:
+   threshold  TP  TN  FP  FN
+0        0.1  90  80  10   5
+1        0.2  85  85   5  10
+2        0.3  83  86   4  12
+3        0.4  92  75  15   3
+4        0.5  91  76  14   4
+2024-10-03 10:10:46.331 | INFO     | src.threshold_optimizer:find_best_threshold:64 - Threshold: 0.1, Precision: 0.9, Recall: 0.9473684210526315, F1: 0.9230769230769231
+2024-10-03 10:10:46.331 | INFO     | src.threshold_optimizer:find_best_threshold:68 - Threshold 0.1 satisfies recall >= 0.9
+2024-10-03 10:10:46.332 | INFO     | src.threshold_optimizer:find_best_threshold:64 - Threshold: 0.2, Precision: 0.9444444444444444, Recall: 0.8947368421052632, F1: 0.918918918918919
+2024-10-03 10:10:46.332 | INFO     | src.threshold_optimizer:find_best_threshold:64 - Threshold: 0.3, Precision: 0.9540229885057471, Recall: 0.8736842105263158, F1: 0.9120879120879121
+2024-10-03 10:10:46.333 | INFO     | src.threshold_optimizer:find_best_threshold:64 - Threshold: 0.4, Precision: 0.8598130841121495, Recall: 0.968421052631579, F1: 0.9108910891089109
+2024-10-03 10:10:46.333 | INFO     | src.threshold_optimizer:find_best_threshold:68 - Threshold 0.4 satisfies recall >= 0.9
+2024-10-03 10:10:46.334 | INFO     | src.threshold_optimizer:find_best_threshold:64 - Threshold: 0.5, Precision: 0.8666666666666667, Recall: 0.9578947368421052, F1: 0.91
+2024-10-03 10:10:46.334 | INFO     | src.threshold_optimizer:find_best_threshold:68 - Threshold 0.5 satisfies recall >= 0.9
+2024-10-03 10:10:46.334 | INFO     | src.threshold_optimizer:find_best_threshold:103 - Best threshold selected: 0.5
+2024-10-03 10:38:57.673 | ERROR    | src.threshold_optimizer:find_best_threshold:34 - File not found: data/test_classification_thresholds.csv
+2024-10-03 10:38:57.673 | ERROR    | src.threshold_optimizer:run_optimizer:125 - No valid threshold found.
+2024-10-03 10:39:38.711 | INFO     | src.threshold_optimizer:find_best_threshold:32 - Successfully read CSV file: data/classification_thresholds.csv
+2024-10-03 10:39:38.716 | INFO     | src.threshold_optimizer:find_best_threshold:49 - DataFrame read from file:
+   threshold  TP  TN  FP  FN
+0        0.1  90  80  10   5
+1        0.2  85  85   5  10
+2        0.3  83  86   4  12
+3        0.4  92  75  15   3
+4        0.5  91  76  14   4
+2024-10-03 10:39:38.716 | INFO     | src.threshold_optimizer:find_best_threshold:64 - Threshold: 0.1, Precision: 0.9, Recall: 0.9473684210526315, F1: 0.9230769230769231
+2024-10-03 10:39:38.716 | INFO     | src.threshold_optimizer:find_best_threshold:68 - Threshold 0.1 satisfies recall >= 0.9
+2024-10-03 10:39:38.716 | INFO     | src.threshold_optimizer:find_best_threshold:64 - Threshold: 0.2, Precision: 0.9444444444444444, Recall: 0.8947368421052632, F1: 0.918918918918919
+2024-10-03 10:39:38.717 | INFO     | src.threshold_optimizer:find_best_threshold:64 - Threshold: 0.3, Precision: 0.9540229885057471, Recall: 0.8736842105263158, F1: 0.9120879120879121
+2024-10-03 10:39:38.717 | INFO     | src.threshold_optimizer:find_best_threshold:64 - Threshold: 0.4, Precision: 0.8598130841121495, Recall: 0.968421052631579, F1: 0.9108910891089109
+2024-10-03 10:39:38.717 | INFO     | src.threshold_optimizer:find_best_threshold:68 - Threshold 0.4 satisfies recall >= 0.9
+2024-10-03 10:39:38.717 | INFO     | src.threshold_optimizer:find_best_threshold:64 - Threshold: 0.5, Precision: 0.8666666666666667, Recall: 0.9578947368421052, F1: 0.91
+2024-10-03 10:39:38.717 | INFO     | src.threshold_optimizer:find_best_threshold:68 - Threshold 0.5 satisfies recall >= 0.9
+2024-10-03 10:39:38.717 | INFO     | src.threshold_optimizer:find_best_threshold:103 - Best threshold selected: 0.5
+2024-10-03 10:39:38.717 | INFO     | src.threshold_optimizer:run_optimizer:128 - Best threshold selected: 0.5
+2024-10-03 10:39:38.718 | INFO     | __main__:main:52 - Best threshold selected: 0.5

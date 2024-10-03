@@ -1,0 +1,410 @@
+2024-10-03 10:13:40,261 - INFO - FSM reset to initial state S0
+2024-10-03 10:13:40,261 - INFO - Transition from state S0 to S1 on input 1
+2024-10-03 10:13:40,261 - INFO - Transition from state S1 to S0 on input 1
+2024-10-03 10:13:40,261 - INFO - Transition from state S0 to S0 on input 0
+2024-10-03 10:13:40,262 - INFO - FSM reset to initial state S0
+2024-10-03 10:13:40,262 - INFO - FSM reset to initial state S0
+2024-10-03 10:13:40,263 - INFO - Transition from state S0 to S1 on input 1
+2024-10-03 10:13:40,263 - INFO - Transition from state S1 to S2 on input 0
+2024-10-03 10:13:40,263 - INFO - FSM reset to initial state S0
+2024-10-03 10:13:40,263 - INFO - FSM reset to initial state S0
+2024-10-03 10:13:40,263 - INFO - Transition from state S0 to S0 on input 0
+2024-10-03 10:13:40,264 - INFO - Transition from state S0 to S1 on input 1
+2024-10-03 10:13:40,264 - INFO - FSM reset to initial state S0
+2024-10-03 10:13:40,264 - INFO - Transition from state S0 to S1 on input 1
+2024-10-03 10:13:40,264 - INFO - Transition from state S1 to S0 on input 1
+2024-10-03 10:13:40,264 - INFO - Transition from state S0 to S0 on input 0
+2024-10-03 10:13:40,264 - INFO - Transition from state S0 to S1 on input 1
+2024-10-03 10:13:40,265 - INFO - FSM reset to initial state S0
+2024-10-03 10:13:40,265 - INFO - Transition from state S0 to S1 on input 1
+2024-10-03 10:13:40,265 - INFO - Transition from state S1 to S0 on input 1
+2024-10-03 10:13:40,265 - INFO - Transition from state S0 to S1 on input 1
+2024-10-03 10:13:40,265 - INFO - Transition from state S1 to S2 on input 0
+2024-10-03 10:13:40,265 - INFO - FSM reset to initial state S0
+2024-10-03 10:13:40,265 - INFO - Transition from state S0 to S1 on input 1
+2024-10-03 10:13:40,265 - INFO - Transition from state S1 to S0 on input 1
+2024-10-03 10:13:40,265 - INFO - Transition from state S0 to S1 on input 1
+2024-10-03 10:13:40,265 - INFO - Transition from state S1 to S0 on input 1
+2024-10-03 10:13:40,265 - INFO - FSM reset to initial state S0
+2024-10-03 10:13:40,265 - INFO - Transition from state S0 to S1 on input 1
+2024-10-03 10:13:40,265 - INFO - Transition from state S1 to S0 on input 1
+2024-10-03 10:13:40,265 - INFO - Transition from state S0 to S0 on input 0
+2024-10-03 10:13:40,265 - INFO - FSM reset to initial state S0
+2024-10-03 10:13:40,265 - INFO - Transition from state S0 to S1 on input 1
+2024-10-03 10:13:40,266 - INFO - Transition from state S1 to S2 on input 0
+2024-10-03 10:13:40,266 - INFO - Transition from state S2 to S2 on input 1
+2024-10-03 10:13:40,266 - INFO - Transition from state S2 to S1 on input 0
+2024-10-03 10:13:40,266 - INFO - FSM reset to initial state S0
+2024-10-03 10:13:40,266 - INFO - FSM reset to initial state S0
+2024-10-03 10:13:40,266 - INFO - Transition from state S0 to S0 on input 0
+2024-10-03 10:13:40,266 - INFO - FSM reset to initial state S0
+2024-10-03 10:13:40,266 - INFO - Transition from state S0 to S1 on input 1
+2024-10-03 10:13:40,266 - INFO - FSM reset to initial state S0
+2024-10-03 10:13:40,266 - INFO - Transition from state S0 to S1 on input 1
+2024-10-03 10:13:40,266 - INFO - Transition from state S1 to S2 on input 0
+2024-10-03 10:13:40,266 - INFO - Transition from state S2 to S1 on input 0
+2024-10-03 10:13:40,266 - INFO - Transition from state S1 to S0 on input 1
+2024-10-03 10:14:18,129 - INFO - FSM reset to initial state S0
+2024-10-03 10:14:18,129 - INFO - Transition from state S0 to S1 on input 1
+2024-10-03 10:14:18,129 - INFO - Transition from state S1 to S0 on input 1
+2024-10-03 10:14:18,129 - INFO - Transition from state S0 to S0 on input 0
+2024-10-03 10:14:18,129 - INFO - Transition from state S0 to S1 on input 1
+2024-10-03 10:14:30,603 - INFO - FSM reset to initial state S0
+2024-10-03 10:14:30,603 - INFO - Transition from state S0 to S1 on input 1
+2024-10-03 10:14:30,604 - INFO - Transition from state S1 to S0 on input 1
+2024-10-03 10:14:30,604 - INFO - Transition from state S0 to S1 on input 1
+2024-10-03 10:14:30,604 - INFO - Transition from state S1 to S2 on input 0
+2024-10-03 10:15:16,958 - INFO - FSM reset to initial state S0
+2024-10-03 10:15:16,958 - INFO - Transition from state S0 to S1 on input 1
+2024-10-03 10:16:51,503 - INFO - FSM reset to initial state S0
+2024-10-03 10:16:51,503 - INFO - Transition from state S0 to S1 on input 1
+2024-10-03 10:16:51,503 - INFO - Transition from state S1 to S0 on input 1
+2024-10-03 10:16:51,503 - INFO - Transition from state S0 to S0 on input 0
+2024-10-03 10:16:51,503 - INFO - FSM reset to initial state S0
+2024-10-03 10:16:51,504 - INFO - FSM reset to initial state S0
+2024-10-03 10:16:51,504 - INFO - Transition from state S0 to S1 on input 1
+2024-10-03 10:16:51,504 - INFO - Transition from state S1 to S2 on input 0
+2024-10-03 10:16:51,504 - INFO - FSM reset to initial state S0
+2024-10-03 10:16:51,504 - INFO - FSM reset to initial state S0
+2024-10-03 10:16:51,504 - INFO - Transition from state S0 to S0 on input 0
+2024-10-03 10:16:51,504 - INFO - Transition from state S0 to S1 on input 1
+2024-10-03 10:16:51,504 - INFO - FSM reset to initial state S0
+2024-10-03 10:16:51,505 - INFO - Transition from state S0 to S1 on input 1
+2024-10-03 10:16:51,505 - INFO - Transition from state S1 to S0 on input 1
+2024-10-03 10:16:51,505 - INFO - Transition from state S0 to S0 on input 0
+2024-10-03 10:16:51,505 - INFO - Transition from state S0 to S1 on input 1
+2024-10-03 10:16:51,505 - INFO - FSM reset to initial state S0
+2024-10-03 10:16:51,505 - INFO - Transition from state S0 to S1 on input 1
+2024-10-03 10:16:51,505 - INFO - Transition from state S1 to S0 on input 1
+2024-10-03 10:16:51,505 - INFO - Transition from state S0 to S1 on input 1
+2024-10-03 10:16:51,505 - INFO - Transition from state S1 to S2 on input 0
+2024-10-03 10:16:51,505 - INFO - FSM reset to initial state S0
+2024-10-03 10:16:51,505 - INFO - Transition from state S0 to S1 on input 1
+2024-10-03 10:16:51,505 - INFO - Transition from state S1 to S0 on input 1
+2024-10-03 10:16:51,505 - INFO - Transition from state S0 to S1 on input 1
+2024-10-03 10:16:51,505 - INFO - Transition from state S1 to S0 on input 1
+2024-10-03 10:16:51,505 - INFO - FSM reset to initial state S0
+2024-10-03 10:16:51,505 - INFO - Transition from state S0 to S1 on input 1
+2024-10-03 10:16:51,506 - INFO - Transition from state S1 to S0 on input 1
+2024-10-03 10:16:51,506 - INFO - Transition from state S0 to S0 on input 0
+2024-10-03 10:16:51,506 - INFO - FSM reset to initial state S0
+2024-10-03 10:16:51,506 - INFO - Transition from state S0 to S1 on input 1
+2024-10-03 10:16:51,506 - INFO - Transition from state S1 to S2 on input 0
+2024-10-03 10:16:51,506 - INFO - Transition from state S2 to S2 on input 1
+2024-10-03 10:16:51,506 - INFO - Transition from state S2 to S1 on input 0
+2024-10-03 10:16:51,506 - INFO - FSM reset to initial state S0
+2024-10-03 10:16:51,506 - INFO - FSM reset to initial state S0
+2024-10-03 10:16:51,506 - INFO - Transition from state S0 to S0 on input 0
+2024-10-03 10:16:51,506 - INFO - FSM reset to initial state S0
+2024-10-03 10:16:51,506 - INFO - Transition from state S0 to S1 on input 1
+2024-10-03 10:16:51,506 - INFO - FSM reset to initial state S0
+2024-10-03 10:16:51,506 - INFO - Transition from state S0 to S1 on input 1
+2024-10-03 10:16:51,506 - INFO - Transition from state S1 to S2 on input 0
+2024-10-03 10:16:51,507 - INFO - Transition from state S2 to S1 on input 0
+2024-10-03 10:16:51,507 - INFO - Transition from state S1 to S0 on input 1
+2024-10-03 10:19:23,451 - INFO - FSM reset to initial state S0
+2024-10-03 10:19:23,451 - INFO - Transition from state S0 to S1 on input 1
+2024-10-03 10:19:23,451 - INFO - Transition from state S1 to S0 on input 1
+2024-10-03 10:19:23,452 - INFO - Transition from state S0 to S0 on input 0
+2024-10-03 10:19:23,452 - INFO - FSM reset to initial state S0
+2024-10-03 10:19:23,452 - INFO - FSM reset to initial state S0
+2024-10-03 10:19:23,452 - INFO - Transition from state S0 to S1 on input 1
+2024-10-03 10:19:23,452 - INFO - Transition from state S1 to S2 on input 0
+2024-10-03 10:19:23,453 - INFO - FSM reset to initial state S0
+2024-10-03 10:19:23,453 - INFO - FSM reset to initial state S0
+2024-10-03 10:19:23,453 - INFO - Transition from state S0 to S0 on input 0
+2024-10-03 10:19:23,453 - INFO - Transition from state S0 to S1 on input 1
+2024-10-03 10:19:23,453 - INFO - FSM reset to initial state S0
+2024-10-03 10:19:23,454 - INFO - Transition from state S0 to S1 on input 1
+2024-10-03 10:19:23,454 - INFO - Transition from state S1 to S0 on input 1
+2024-10-03 10:19:23,454 - INFO - Transition from state S0 to S0 on input 0
+2024-10-03 10:19:23,454 - INFO - Transition from state S0 to S1 on input 1
+2024-10-03 10:19:23,454 - INFO - FSM reset to initial state S0
+2024-10-03 10:19:23,454 - INFO - Transition from state S0 to S1 on input 1
+2024-10-03 10:19:23,454 - INFO - Transition from state S1 to S0 on input 1
+2024-10-03 10:19:23,454 - INFO - Transition from state S0 to S1 on input 1
+2024-10-03 10:19:23,454 - INFO - Transition from state S1 to S2 on input 0
+2024-10-03 10:19:23,454 - INFO - FSM reset to initial state S0
+2024-10-03 10:19:23,454 - INFO - Transition from state S0 to S1 on input 1
+2024-10-03 10:19:23,454 - INFO - Transition from state S1 to S0 on input 1
+2024-10-03 10:19:23,454 - INFO - Transition from state S0 to S1 on input 1
+2024-10-03 10:19:23,454 - INFO - Transition from state S1 to S0 on input 1
+2024-10-03 10:19:23,455 - INFO - FSM reset to initial state S0
+2024-10-03 10:19:23,455 - INFO - Transition from state S0 to S1 on input 1
+2024-10-03 10:19:23,455 - INFO - Transition from state S1 to S0 on input 1
+2024-10-03 10:19:23,455 - INFO - Transition from state S0 to S0 on input 0
+2024-10-03 10:19:23,455 - INFO - FSM reset to initial state S0
+2024-10-03 10:19:23,455 - INFO - Transition from state S0 to S1 on input 1
+2024-10-03 10:19:23,455 - INFO - Transition from state S1 to S2 on input 0
+2024-10-03 10:19:23,455 - INFO - Transition from state S2 to S2 on input 1
+2024-10-03 10:19:23,455 - INFO - Transition from state S2 to S1 on input 0
+2024-10-03 10:19:23,455 - INFO - FSM reset to initial state S0
+2024-10-03 10:19:23,455 - INFO - FSM reset to initial state S0
+2024-10-03 10:19:23,455 - INFO - Transition from state S0 to S0 on input 0
+2024-10-03 10:19:23,455 - INFO - FSM reset to initial state S0
+2024-10-03 10:19:23,455 - INFO - Transition from state S0 to S1 on input 1
+2024-10-03 10:19:23,455 - INFO - FSM reset to initial state S0
+2024-10-03 10:19:23,455 - INFO - Transition from state S0 to S1 on input 1
+2024-10-03 10:19:23,455 - INFO - Transition from state S1 to S2 on input 0
+2024-10-03 10:19:23,456 - INFO - Transition from state S2 to S1 on input 0
+2024-10-03 10:19:23,456 - INFO - Transition from state S1 to S0 on input 1
+2024-10-03 10:20:50,129 - INFO - FSM reset to initial state S0
+2024-10-03 10:20:50,130 - INFO - Transition from state S0 to S1 on input 1
+2024-10-03 10:20:50,130 - INFO - Transition from state S1 to S0 on input 1
+2024-10-03 10:20:50,130 - INFO - Transition from state S0 to S0 on input 0
+2024-10-03 10:20:50,130 - ERROR - Invalid input symbol encountered: 2
+2024-10-03 10:20:50,130 - INFO - FSM reset to initial state S0
+2024-10-03 10:20:50,130 - ERROR - Invalid input symbol encountered: a
+2024-10-03 10:20:50,130 - INFO - FSM reset to initial state S0
+2024-10-03 10:20:50,130 - INFO - Transition from state S0 to S1 on input 1
+2024-10-03 10:20:50,130 - INFO - Transition from state S1 to S2 on input 0
+2024-10-03 10:20:50,130 - ERROR - Invalid input symbol encountered: a
+2024-10-03 10:20:50,130 - INFO - FSM reset to initial state S0
+2024-10-03 10:20:50,130 - ERROR - Invalid input symbol encountered: 2
+2024-10-03 10:20:50,130 - INFO - FSM reset to initial state S0
+2024-10-03 10:20:50,130 - INFO - Transition from state S0 to S0 on input 0
+2024-10-03 10:20:50,130 - INFO - Transition from state S0 to S1 on input 1
+2024-10-03 10:20:50,130 - ERROR - Invalid input symbol encountered: b
+2024-10-03 10:20:50,131 - INFO - FSM reset to initial state S0
+2024-10-03 10:20:50,131 - INFO - Transition from state S0 to S1 on input 1
+2024-10-03 10:20:50,131 - INFO - Transition from state S1 to S0 on input 1
+2024-10-03 10:20:50,131 - INFO - Transition from state S0 to S0 on input 0
+2024-10-03 10:20:50,131 - INFO - Transition from state S0 to S1 on input 1
+2024-10-03 10:20:50,131 - INFO - FSM reset to initial state S0
+2024-10-03 10:20:50,131 - INFO - Transition from state S0 to S1 on input 1
+2024-10-03 10:20:50,131 - INFO - Transition from state S1 to S0 on input 1
+2024-10-03 10:20:50,131 - INFO - Transition from state S0 to S1 on input 1
+2024-10-03 10:20:50,131 - INFO - Transition from state S1 to S2 on input 0
+2024-10-03 10:20:50,131 - INFO - FSM reset to initial state S0
+2024-10-03 10:20:50,131 - INFO - Transition from state S0 to S1 on input 1
+2024-10-03 10:20:50,131 - INFO - Transition from state S1 to S0 on input 1
+2024-10-03 10:20:50,131 - INFO - Transition from state S0 to S1 on input 1
+2024-10-03 10:20:50,131 - INFO - Transition from state S1 to S0 on input 1
+2024-10-03 10:20:50,131 - INFO - FSM reset to initial state S0
+2024-10-03 10:20:50,131 - INFO - Transition from state S0 to S1 on input 1
+2024-10-03 10:20:50,131 - INFO - Transition from state S1 to S0 on input 1
+2024-10-03 10:20:50,131 - INFO - Transition from state S0 to S0 on input 0
+2024-10-03 10:20:50,131 - INFO - FSM reset to initial state S0
+2024-10-03 10:20:50,131 - INFO - Transition from state S0 to S1 on input 1
+2024-10-03 10:20:50,131 - INFO - Transition from state S1 to S2 on input 0
+2024-10-03 10:20:50,131 - INFO - Transition from state S2 to S2 on input 1
+2024-10-03 10:20:50,131 - INFO - Transition from state S2 to S1 on input 0
+2024-10-03 10:20:50,131 - INFO - FSM reset to initial state S0
+2024-10-03 10:20:50,131 - INFO - FSM reset to initial state S0
+2024-10-03 10:20:50,131 - INFO - Transition from state S0 to S0 on input 0
+2024-10-03 10:20:50,131 - INFO - FSM reset to initial state S0
+2024-10-03 10:20:50,131 - INFO - Transition from state S0 to S1 on input 1
+2024-10-03 10:20:50,131 - INFO - FSM reset to initial state S0
+2024-10-03 10:20:50,131 - INFO - Transition from state S0 to S1 on input 1
+2024-10-03 10:20:50,131 - INFO - Transition from state S1 to S2 on input 0
+2024-10-03 10:20:50,131 - INFO - Transition from state S2 to S1 on input 0
+2024-10-03 10:20:50,131 - INFO - Transition from state S1 to S0 on input 1
+2024-10-03 10:21:21,086 - INFO - FSM reset to initial state S0
+2024-10-03 10:21:21,086 - INFO - Transition from state S0 to S1 on input 1
+2024-10-03 10:21:21,086 - INFO - Transition from state S1 to S0 on input 1
+2024-10-03 10:21:21,086 - INFO - Transition from state S0 to S0 on input 0
+2024-10-03 10:21:21,086 - ERROR - Invalid input symbol encountered: 2
+2024-10-03 10:21:21,087 - INFO - FSM reset to initial state S0
+2024-10-03 10:21:21,087 - ERROR - Invalid input symbol encountered: a
+2024-10-03 10:21:21,087 - INFO - FSM reset to initial state S0
+2024-10-03 10:21:21,087 - INFO - Transition from state S0 to S1 on input 1
+2024-10-03 10:21:21,087 - INFO - Transition from state S1 to S2 on input 0
+2024-10-03 10:21:21,087 - ERROR - Invalid input symbol encountered: a
+2024-10-03 10:21:21,087 - INFO - FSM reset to initial state S0
+2024-10-03 10:21:21,087 - ERROR - Invalid input symbol encountered: 2
+2024-10-03 10:21:21,087 - INFO - FSM reset to initial state S0
+2024-10-03 10:21:21,087 - INFO - Transition from state S0 to S0 on input 0
+2024-10-03 10:21:21,087 - INFO - Transition from state S0 to S1 on input 1
+2024-10-03 10:21:21,087 - ERROR - Invalid input symbol encountered: b
+2024-10-03 10:21:21,088 - INFO - FSM reset to initial state S0
+2024-10-03 10:21:21,088 - INFO - Transition from state S0 to S1 on input 1
+2024-10-03 10:21:21,088 - INFO - Transition from state S1 to S0 on input 1
+2024-10-03 10:21:21,088 - INFO - Transition from state S0 to S0 on input 0
+2024-10-03 10:21:21,088 - INFO - Transition from state S0 to S1 on input 1
+2024-10-03 10:21:21,088 - INFO - FSM reset to initial state S0
+2024-10-03 10:21:21,088 - INFO - Transition from state S0 to S1 on input 1
+2024-10-03 10:21:21,088 - INFO - Transition from state S1 to S0 on input 1
+2024-10-03 10:21:21,088 - INFO - Transition from state S0 to S1 on input 1
+2024-10-03 10:21:21,088 - INFO - Transition from state S1 to S2 on input 0
+2024-10-03 10:21:21,088 - INFO - FSM reset to initial state S0
+2024-10-03 10:21:21,088 - INFO - Transition from state S0 to S1 on input 1
+2024-10-03 10:21:21,088 - INFO - Transition from state S1 to S0 on input 1
+2024-10-03 10:21:21,088 - INFO - Transition from state S0 to S1 on input 1
+2024-10-03 10:21:21,088 - INFO - Transition from state S1 to S0 on input 1
+2024-10-03 10:21:21,088 - INFO - FSM reset to initial state S0
+2024-10-03 10:21:21,088 - INFO - Transition from state S0 to S1 on input 1
+2024-10-03 10:21:21,088 - INFO - Transition from state S1 to S0 on input 1
+2024-10-03 10:21:21,088 - INFO - Transition from state S0 to S0 on input 0
+2024-10-03 10:21:21,088 - INFO - FSM reset to initial state S0
+2024-10-03 10:21:21,088 - INFO - Transition from state S0 to S1 on input 1
+2024-10-03 10:21:21,088 - INFO - Transition from state S1 to S2 on input 0
+2024-10-03 10:21:21,088 - INFO - Transition from state S2 to S2 on input 1
+2024-10-03 10:21:21,088 - INFO - Transition from state S2 to S1 on input 0
+2024-10-03 10:21:21,088 - INFO - FSM reset to initial state S0
+2024-10-03 10:21:21,089 - INFO - FSM reset to initial state S0
+2024-10-03 10:21:21,089 - INFO - Transition from state S0 to S0 on input 0
+2024-10-03 10:21:21,089 - INFO - FSM reset to initial state S0
+2024-10-03 10:21:21,089 - INFO - Transition from state S0 to S1 on input 1
+2024-10-03 10:21:21,089 - INFO - FSM reset to initial state S0
+2024-10-03 10:21:21,089 - INFO - Transition from state S0 to S1 on input 1
+2024-10-03 10:21:21,089 - INFO - Transition from state S1 to S2 on input 0
+2024-10-03 10:21:21,089 - INFO - Transition from state S2 to S1 on input 0
+2024-10-03 10:21:21,089 - INFO - Transition from state S1 to S0 on input 1
+2024-10-03 10:23:04,998 - INFO - FSM reset to initial state S0
+2024-10-03 10:23:04,998 - INFO - Transition from state S0 to S1 on input 1
+2024-10-03 10:23:04,999 - INFO - Transition from state S1 to S0 on input 1
+2024-10-03 10:23:04,999 - INFO - Transition from state S0 to S0 on input 0
+2024-10-03 10:23:04,999 - ERROR - Invalid input symbol encountered: 2
+2024-10-03 10:23:04,999 - INFO - FSM reset to initial state S0
+2024-10-03 10:23:04,999 - ERROR - Invalid input symbol encountered: a
+2024-10-03 10:23:05,000 - INFO - FSM reset to initial state S0
+2024-10-03 10:23:05,000 - INFO - Transition from state S0 to S1 on input 1
+2024-10-03 10:23:05,000 - INFO - Transition from state S1 to S2 on input 0
+2024-10-03 10:23:05,000 - ERROR - Invalid input symbol encountered: a
+2024-10-03 10:23:05,000 - INFO - FSM reset to initial state S0
+2024-10-03 10:23:05,000 - ERROR - Invalid input symbol encountered: 2
+2024-10-03 10:23:05,000 - INFO - FSM reset to initial state S0
+2024-10-03 10:23:05,000 - INFO - Transition from state S0 to S0 on input 0
+2024-10-03 10:23:05,000 - INFO - Transition from state S0 to S1 on input 1
+2024-10-03 10:23:05,000 - ERROR - Invalid input symbol encountered: b
+2024-10-03 10:23:05,001 - INFO - FSM reset to initial state S0
+2024-10-03 10:23:05,001 - INFO - Transition from state S0 to S1 on input 1
+2024-10-03 10:23:05,002 - INFO - Transition from state S1 to S0 on input 1
+2024-10-03 10:23:05,002 - INFO - Transition from state S0 to S0 on input 0
+2024-10-03 10:23:05,002 - INFO - Transition from state S0 to S1 on input 1
+2024-10-03 10:23:05,003 - INFO - FSM reset to initial state S0
+2024-10-03 10:23:05,003 - INFO - Transition from state S0 to S1 on input 1
+2024-10-03 10:23:05,003 - INFO - Transition from state S1 to S0 on input 1
+2024-10-03 10:23:05,003 - INFO - Transition from state S0 to S1 on input 1
+2024-10-03 10:23:05,003 - INFO - Transition from state S1 to S2 on input 0
+2024-10-03 10:23:05,004 - INFO - FSM reset to initial state S0
+2024-10-03 10:23:05,004 - INFO - Transition from state S0 to S1 on input 1
+2024-10-03 10:23:05,004 - INFO - Transition from state S1 to S0 on input 1
+2024-10-03 10:23:05,004 - INFO - Transition from state S0 to S1 on input 1
+2024-10-03 10:23:05,004 - INFO - Transition from state S1 to S0 on input 1
+2024-10-03 10:23:05,004 - INFO - FSM reset to initial state S0
+2024-10-03 10:23:05,004 - INFO - Transition from state S0 to S1 on input 1
+2024-10-03 10:23:05,004 - INFO - Transition from state S1 to S0 on input 1
+2024-10-03 10:23:05,005 - INFO - Transition from state S0 to S0 on input 0
+2024-10-03 10:23:05,005 - INFO - FSM reset to initial state S0
+2024-10-03 10:23:05,005 - INFO - Transition from state S0 to S1 on input 1
+2024-10-03 10:23:05,005 - INFO - Transition from state S1 to S2 on input 0
+2024-10-03 10:23:05,005 - INFO - Transition from state S2 to S2 on input 1
+2024-10-03 10:23:05,005 - INFO - Transition from state S2 to S1 on input 0
+2024-10-03 10:23:05,005 - INFO - FSM reset to initial state S0
+2024-10-03 10:23:05,005 - INFO - FSM reset to initial state S0
+2024-10-03 10:23:05,005 - INFO - Transition from state S0 to S0 on input 0
+2024-10-03 10:23:05,005 - INFO - FSM reset to initial state S0
+2024-10-03 10:23:05,006 - INFO - Transition from state S0 to S1 on input 1
+2024-10-03 10:23:05,006 - INFO - FSM reset to initial state S0
+2024-10-03 10:23:05,006 - INFO - Transition from state S0 to S1 on input 1
+2024-10-03 10:23:05,006 - INFO - Transition from state S1 to S2 on input 0
+2024-10-03 10:23:05,006 - INFO - Transition from state S2 to S1 on input 0
+2024-10-03 10:23:05,006 - INFO - Transition from state S1 to S0 on input 1
+2024-10-03 10:25:43,551 - INFO - FSM reset to initial state S0
+2024-10-03 10:25:43,551 - INFO - Transition from state S0 to S1 on input 1
+2024-10-03 10:25:43,551 - INFO - Transition from state S1 to S0 on input 1
+2024-10-03 10:25:43,552 - INFO - Transition from state S0 to S0 on input 0
+2024-10-03 10:25:43,553 - ERROR - Invalid input symbol encountered: 2
+2024-10-03 10:25:43,553 - INFO - FSM reset to initial state S0
+2024-10-03 10:25:43,553 - ERROR - Invalid input symbol encountered: a
+2024-10-03 10:25:43,553 - INFO - FSM reset to initial state S0
+2024-10-03 10:25:43,553 - INFO - Transition from state S0 to S1 on input 1
+2024-10-03 10:25:43,554 - INFO - Transition from state S1 to S2 on input 0
+2024-10-03 10:25:43,554 - ERROR - Invalid input symbol encountered: a
+2024-10-03 10:25:43,554 - INFO - FSM reset to initial state S0
+2024-10-03 10:25:43,554 - ERROR - Invalid input symbol encountered: 2
+2024-10-03 10:25:43,555 - INFO - FSM reset to initial state S0
+2024-10-03 10:25:43,555 - INFO - Transition from state S0 to S0 on input 0
+2024-10-03 10:25:43,555 - INFO - Transition from state S0 to S1 on input 1
+2024-10-03 10:25:43,555 - ERROR - Invalid input symbol encountered: b
+2024-10-03 10:25:43,556 - INFO - FSM reset to initial state S0
+2024-10-03 10:25:43,556 - INFO - Transition from state S0 to S1 on input 1
+2024-10-03 10:25:43,556 - INFO - Transition from state S1 to S0 on input 1
+2024-10-03 10:25:43,556 - INFO - Transition from state S0 to S0 on input 0
+2024-10-03 10:25:43,556 - INFO - Transition from state S0 to S1 on input 1
+2024-10-03 10:25:43,556 - INFO - FSM reset to initial state S0
+2024-10-03 10:25:43,557 - INFO - Transition from state S0 to S1 on input 1
+2024-10-03 10:25:43,557 - INFO - Transition from state S1 to S0 on input 1
+2024-10-03 10:25:43,557 - INFO - Transition from state S0 to S1 on input 1
+2024-10-03 10:25:43,557 - INFO - Transition from state S1 to S2 on input 0
+2024-10-03 10:25:43,557 - INFO - FSM reset to initial state S0
+2024-10-03 10:25:43,557 - INFO - Transition from state S0 to S1 on input 1
+2024-10-03 10:25:43,558 - INFO - Transition from state S1 to S0 on input 1
+2024-10-03 10:25:43,558 - INFO - Transition from state S0 to S1 on input 1
+2024-10-03 10:25:43,558 - INFO - Transition from state S1 to S0 on input 1
+2024-10-03 10:25:43,558 - INFO - FSM reset to initial state S0
+2024-10-03 10:25:43,558 - INFO - Transition from state S0 to S1 on input 1
+2024-10-03 10:25:43,558 - INFO - Transition from state S1 to S0 on input 1
+2024-10-03 10:25:43,558 - INFO - Transition from state S0 to S0 on input 0
+2024-10-03 10:25:43,559 - INFO - FSM reset to initial state S0
+2024-10-03 10:25:43,559 - INFO - Transition from state S0 to S1 on input 1
+2024-10-03 10:25:43,559 - INFO - Transition from state S1 to S2 on input 0
+2024-10-03 10:25:43,559 - INFO - Transition from state S2 to S2 on input 1
+2024-10-03 10:25:43,559 - INFO - Transition from state S2 to S1 on input 0
+2024-10-03 10:25:43,559 - INFO - FSM reset to initial state S0
+2024-10-03 10:25:43,559 - INFO - FSM reset to initial state S0
+2024-10-03 10:25:43,559 - INFO - Transition from state S0 to S0 on input 0
+2024-10-03 10:25:43,560 - INFO - FSM reset to initial state S0
+2024-10-03 10:25:43,560 - INFO - Transition from state S0 to S1 on input 1
+2024-10-03 10:25:43,560 - INFO - FSM reset to initial state S0
+2024-10-03 10:25:43,560 - INFO - Transition from state S0 to S1 on input 1
+2024-10-03 10:25:43,560 - INFO - Transition from state S1 to S2 on input 0
+2024-10-03 10:25:43,561 - INFO - Transition from state S2 to S1 on input 0
+2024-10-03 10:25:43,561 - INFO - Transition from state S1 to S0 on input 1
+2024-10-03 10:28:21,486 - INFO - FSM reset to initial state S0
+2024-10-03 10:28:21,487 - INFO - Transition from state S0 to S1 on input 1
+2024-10-03 10:28:21,487 - INFO - Transition from state S1 to S0 on input 1
+2024-10-03 10:28:21,487 - INFO - Transition from state S0 to S0 on input 0
+2024-10-03 10:28:21,487 - ERROR - Invalid input symbol encountered: 2
+2024-10-03 10:28:21,488 - INFO - FSM reset to initial state S0
+2024-10-03 10:28:21,488 - ERROR - Invalid input symbol encountered: a
+2024-10-03 10:28:21,488 - INFO - FSM reset to initial state S0
+2024-10-03 10:28:21,488 - INFO - Transition from state S0 to S1 on input 1
+2024-10-03 10:28:21,488 - INFO - Transition from state S1 to S2 on input 0
+2024-10-03 10:28:21,488 - ERROR - Invalid input symbol encountered: a
+2024-10-03 10:28:21,488 - INFO - FSM reset to initial state S0
+2024-10-03 10:28:21,488 - ERROR - Invalid input symbol encountered: 2
+2024-10-03 10:28:21,488 - INFO - FSM reset to initial state S0
+2024-10-03 10:28:21,489 - INFO - Transition from state S0 to S0 on input 0
+2024-10-03 10:28:21,489 - INFO - Transition from state S0 to S1 on input 1
+2024-10-03 10:28:21,489 - ERROR - Invalid input symbol encountered: b
+2024-10-03 10:28:21,490 - INFO - FSM reset to initial state S0
+2024-10-03 10:28:21,490 - INFO - Transition from state S0 to S1 on input 1
+2024-10-03 10:28:21,490 - INFO - Transition from state S1 to S0 on input 1
+2024-10-03 10:28:21,490 - INFO - Transition from state S0 to S0 on input 0
+2024-10-03 10:28:21,491 - INFO - Transition from state S0 to S1 on input 1
+2024-10-03 10:28:21,491 - INFO - FSM reset to initial state S0
+2024-10-03 10:28:21,491 - INFO - Transition from state S0 to S1 on input 1
+2024-10-03 10:28:21,491 - INFO - Transition from state S1 to S0 on input 1
+2024-10-03 10:28:21,492 - INFO - Transition from state S0 to S1 on input 1
+2024-10-03 10:28:21,492 - INFO - Transition from state S1 to S2 on input 0
+2024-10-03 10:28:21,492 - INFO - FSM reset to initial state S0
+2024-10-03 10:28:21,492 - INFO - Transition from state S0 to S1 on input 1
+2024-10-03 10:28:21,492 - INFO - Transition from state S1 to S0 on input 1
+2024-10-03 10:28:21,493 - INFO - Transition from state S0 to S1 on input 1
+2024-10-03 10:28:21,493 - INFO - Transition from state S1 to S0 on input 1
+2024-10-03 10:28:21,493 - INFO - FSM reset to initial state S0
+2024-10-03 10:28:21,493 - INFO - Transition from state S0 to S1 on input 1
+2024-10-03 10:28:21,493 - INFO - Transition from state S1 to S0 on input 1
+2024-10-03 10:28:21,493 - INFO - Transition from state S0 to S0 on input 0
+2024-10-03 10:28:21,494 - INFO - FSM reset to initial state S0
+2024-10-03 10:28:21,494 - INFO - Transition from state S0 to S1 on input 1
+2024-10-03 10:28:21,494 - INFO - Transition from state S1 to S2 on input 0
+2024-10-03 10:28:21,494 - INFO - Transition from state S2 to S2 on input 1
+2024-10-03 10:28:21,494 - INFO - Transition from state S2 to S1 on input 0
+2024-10-03 10:28:21,495 - INFO - FSM reset to initial state S0
+2024-10-03 10:28:21,495 - INFO - FSM reset to initial state S0
+2024-10-03 10:28:21,495 - INFO - Transition from state S0 to S0 on input 0
+2024-10-03 10:28:21,495 - INFO - FSM reset to initial state S0
+2024-10-03 10:28:21,495 - INFO - Transition from state S0 to S1 on input 1
+2024-10-03 10:28:21,496 - INFO - FSM reset to initial state S0
+2024-10-03 10:28:21,496 - INFO - Transition from state S0 to S1 on input 1
+2024-10-03 10:28:21,496 - INFO - Transition from state S1 to S2 on input 0
+2024-10-03 10:28:21,496 - INFO - Transition from state S2 to S1 on input 0
+2024-10-03 10:28:21,496 - INFO - Transition from state S1 to S0 on input 1
+2024-10-03 13:46:10,006 - INFO - FSM reset to initial state S0
+2024-10-03 13:46:10,014 - INFO - Transition from state S0 to S1 on input 1
+2024-10-03 13:46:10,014 - INFO - Transition from state S1 to S0 on input 1
+2024-10-03 13:46:10,014 - INFO - Transition from state S0 to S0 on input 0
+2024-10-03 13:46:10,014 - INFO - Transition from state S0 to S1 on input 1

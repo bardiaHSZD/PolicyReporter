@@ -5,8 +5,6 @@
 
 This project implements a threshold optimization system for a binary classification model. It calculates various metrics (e.g., Precision, Recall, F1 Score, False Positive Rate) across different thresholds and selects the best threshold. The best threshold can be determined based on a **composite score** (weighted metrics), or you can prioritize individual metrics such as F1 Score or Recall.
 
-The solution is designed to handle large datasets efficiently and includes optional GPU acceleration (though not required for basic functionality).
-
 ---
 
 ## Strategy to Reach the Solution
@@ -97,7 +95,7 @@ The input data for this project is stored in a CSV file located in the `data/` f
 - `FP`: False positives for each threshold.
 - `FN`: False negatives for each threshold.
 
-A sample CSV file is included: `data/large_classification_thresholds.csv`.
+A sample CSV file is included: `data/classification_thresholds.csv`.
 
 ---
 
